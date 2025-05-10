@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(239, 235, 229);
+}
+.main{
+    margin-top: 160px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.grid-header-left{
+    color: orange;
+}
+.title1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
+    padding-left: 150px;
+}
+
+ 
+.grid-header{
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    align-items: center;
+    
+}
+.shop-all{
+    text-decoration: none;
+    color: orange;
+    border: 1px solid rgb(227, 110, 14);
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    padding-right: 10px;
+    margin-right: 10px;
+
+}
+.shop-all:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.1s;
+}
+.grid-header-left{
+    font-size: 18px;
+    padding-left: 10px;
+    
+}
+.grid-table1{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-left: 140px;
+    margin-right: 140px;
+    background-color: white;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(183, 181, 181);
+    margin-bottom: 15px;
+}
+.product1{
+    height: 200px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+}
+.container1:hover{
+    border: 1px solid rgb(203, 198, 198);
+    box-shadow: 2px 2px 2px  rgb(186, 187, 187);}
+
+.discount-section{
+    display: flex;
+}
+.info{
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.price{
+    color: orange;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+.old-price{
+    color: gray;
+    font-size: 12px;
+    padding-right: 5px;
+    padding-left: 15px;
+    text-decoration: line-through;
+
+}
+.discount{
+    font-size: 12px;
+}
