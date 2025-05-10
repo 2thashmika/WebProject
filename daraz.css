@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    height: 110px;
+    background-color: rgb(239, 87, 27);
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-section{
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+.daraz-logo{
+    width: 127px;
+    height: 40px;
+    cursor: pointer;
+}
+.middle-secton{
+    flex: 1;
+    max-width: 800px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    flex: 1;
+    height: 50px;
+    border: 1px solid rgb(216, 211, 211);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.right-section{
+    width: 300px;
+}
+.search-button{
+    width: 55px;
+    height: 54px;
+    border: 1px solid rgb(216, 211, 211);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search-icon{
+    height: 30px;
+    
+}
+.cart{
+    height: 35px;
+    margin-left: 25px;
+}
+.login{
+    font-size: 18px;
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    padding-right: 25px;
+    
+}
+.signup{
+    font-size: 18px;
+    color: white;
+    font-style: normal;
+    text-decoration: none; 
+}
+.login:hover{
+    color:blue;
+}
+.signup:hover{
+    color: blue;
+}
